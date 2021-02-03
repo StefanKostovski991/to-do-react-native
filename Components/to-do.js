@@ -3,7 +3,7 @@ import { View, Text, Button, StyleSheet, ScrollView, TextInput, } from "react-na
 import Todo from "./todo";
 
 const TodoMake = () => {
-    const [state,changeState] = useState("Todo list")
+    const [state,changeState] = useState("Taks List")
     const [text,setText] = useState()
     const [list,setList] = useState(["Hallo World"])
 
